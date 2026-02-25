@@ -2,7 +2,6 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./hero.css";
-import carImg from "./assets/car.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -131,7 +130,7 @@ export default function HeroScroll() {
             <div ref={visualRef} className="hero-visual">
               {/* Put your image in /public e.g. car.png */}
               <img
-                 src={carImg}
+                 src="car1.jpg"
                 alt="Main Visual"
                 className="hero-image"
                 draggable="false"
