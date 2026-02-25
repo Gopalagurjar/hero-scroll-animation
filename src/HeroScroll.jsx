@@ -130,8 +130,7 @@ export default function HeroScroll() {
             <div ref={visualRef} className="hero-visual">
               {/* Put your image in /public e.g. car.png */}
               <img
-                src="/car1.jpg"
-                alt="Main Visual"
+                 src="/car.png" alt="Main Visual"
                 className="hero-image"
                 draggable="false"
               />
